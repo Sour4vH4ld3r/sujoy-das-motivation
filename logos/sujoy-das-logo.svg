@@ -1,0 +1,60 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for the main text -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for the tagline -->
+    <linearGradient id="taglineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6B7280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#374151;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for the icon -->
+    <radialGradient id="iconGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background circle for icon -->
+  <circle cx="25" cy="35" r="20" fill="url(#iconGradient)" opacity="0.1"/>
+  
+  <!-- Motivational speaker icon -->
+  <g transform="translate(15, 25)">
+    <!-- Microphone -->
+    <path d="M10 5 C10 3, 8 3, 8 5 L8 12 C8 14, 10 14, 10 12 Z" fill="url(#iconGradient)"/>
+    <rect x="7" y="12" width="4" height="2" fill="url(#iconGradient)"/>
+    <line x1="9" y1="14" x2="9" y2="18" stroke="url(#iconGradient)" stroke-width="2"/>
+    <line x1="6" y1="18" x2="12" y2="18" stroke="url(#iconGradient)" stroke-width="2"/>
+    
+    <!-- Sound waves -->
+    <path d="M14 8 Q16 10, 14 12" stroke="url(#iconGradient)" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M16 6 Q19 10, 16 14" stroke="url(#iconGradient)" stroke-width="1.5" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- Main text "SUJOY DAS" -->
+  <text x="55" y="45" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="url(#textGradient)" letter-spacing="2px">
+    SUJOY DAS
+  </text>
+  
+  <!-- Tagline -->
+  <text x="55" y="65" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="url(#taglineGradient)" letter-spacing="1px">
+    MOTIVATIONAL SPEAKER &amp; LIFE COACH
+  </text>
+  
+  <!-- Decorative elements -->
+  <rect x="55" y="72" width="40" height="2" fill="url(#textGradient)" opacity="0.6" rx="1"/>
+  <rect x="55" y="76" width="25" height="1" fill="url(#textGradient)" opacity="0.4" rx="0.5"/>
+  
+  <!-- Workshop highlight -->
+  <g transform="translate(55, 85)">
+    <rect x="0" y="0" width="180" height="20" fill="url(#iconGradient)" opacity="0.1" rx="10"/>
+    <text x="10" y="13" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" fill="url(#textGradient)">
+      3 DAYS CHANGE YOUR LIFE WORKSHOP
+    </text>
+  </g>
+</svg> 
