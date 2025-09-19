@@ -1,0 +1,10 @@
+Contact: mailto:sujoydasmotivation@gmail.com
+Contact: https://sujoydasmotivation.com
+Preferred-Languages: en, bn
+Canonical: https://sujoydasmotivation.com/.well-known/security.txt
+Policy: https://sujoydasmotivation.com/security-policy
+Acknowledgments: https://sujoydasmotivation.com/security-acknowledgments
+
+# Disclosure Policy
+# If you believe you have found a security vulnerability, please report it to us
+# We take security seriously and will respond promptly to legitimate reports 
