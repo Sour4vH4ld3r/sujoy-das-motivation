@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sujoydasmotivation.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow important directories
+Allow: /images/
+Allow: /videos/
+Allow: /*.css
+Allow: /*.js
+
+# Google specific directives
+User-agent: Googlebot
+Allow: /
+
+# Bing specific directives  
+User-agent: Bingbot
+Allow: /
+
+# Facebook crawler
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter crawler
+User-agent: Twitterbot
+Allow: / 

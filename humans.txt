@@ -1,0 +1,18 @@
+/* TEAM */
+Creator: Sujoy Das
+Contact: sujoydasmotivation [at] gmail.com
+Twitter: @sujoydasmotivation
+Location: West Bengal, West Bengal, India
+
+/* SITE */
+Last update: 2024/01/15
+Standards: HTML5, CSS3, JavaScript, React, Next.js
+Components: Tailwind CSS, TypeScript
+Software: VS Code, Git
+Language: English / Bengali
+
+/* WORKSHOP */
+Name: 3 Days Change Your Life Workshop
+Location: Kolkata, West Bengal
+Type: Personal Development & Motivational Training
+Focus: Life Transformation, Success Mindset, Personal Growth 
